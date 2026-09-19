@@ -10,6 +10,8 @@ LOG_FILE="$LoGS_FOLDER/$SCRIPT_NAME.log" # /var/log/shell-script/16-logs.log
 START_TIME=$(date +%s)
 SCRIPT_DIR=$PWD
 MONGODB_HOST=mongodb.divyajanipalli.fun
+MYSQL_HOST=mysql.divyajanipalli.fun
+
 
 mkdir -p $LOGS_FOLDER
 echo "Script started executed at: $(date)" | tee -a $LOG_FILE
